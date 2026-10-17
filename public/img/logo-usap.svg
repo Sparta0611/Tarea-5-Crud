@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 140" width="100%" height="100%">
+  <g transform="translate(10, 5)">
+    <circle cx="65" cy="65" r="58" fill="#ffffff" stroke="#104f96" stroke-width="3"/>
+    <circle cx="65" cy="65" r="52" fill="#ffffff" stroke="#104f96" stroke-width="1.5" stroke-dasharray="3,2"/>
+    
+    <path id="circlePathTop" d="M 25 65 A 40 40 0 0 1 105 65" fill="none" stroke="none"/>
+    <text font-family="'Segoe UI', Roboto, Arial" font-size="7" font-weight="bold" fill="#104f96" letter-spacing="1">
+      <textPath href="#circlePathTop" startOffset="50%" text-anchor="middle">
+        SAPIENTIA · VERITATIS · HONORE
+      </textPath>
+    </text>
+
+    <path id="circlePathBottom" d="M 105 65 A 40 40 0 0 1 25 65" fill="none" stroke="none"/>
+    <text font-family="'Segoe UI', Roboto, Arial" font-size="7" font-weight="bold" fill="#104f96" letter-spacing="1.5">
+      <textPath href="#circlePathBottom" startOffset="50%" text-anchor="middle">
+        1978
+      </textPath>
+    </text>
+    
+    <path d="M 45 42 L 85 42 C 85 68 65 82 65 82 C 65 82 45 68 45 42 Z" fill="#ffffff" stroke="#104f96" stroke-width="2.5"/>
+    <line x1="65" y1="46" x2="65" y2="76" stroke="#104f96" stroke-width="2"/>
+    <path d="M 52 52 Q 65 48 78 52" fill="none" stroke="#104f96" stroke-width="2"/>
+    <path d="M 52 62 Q 65 58 78 62" fill="none" stroke="#104f96" stroke-width="2"/>
+    <circle cx="65" cy="46" r="3" fill="#e03a3e"/>
+  </g>
+
+  <g transform="translate(145, 10)">
+    <text x="0" y="70" font-family="'Arial Black', Impact, sans-serif" font-size="64" font-weight="900" fill="#e03a3e" letter-spacing="-1">USAP</text>
+    
+    <text x="0" y="100" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="16" font-weight="800" fill="#104f96" letter-spacing="0.5">UNIVERSIDAD DE SAN PEDRO SULA</text>
+  </g>
+</svg>
