@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
         User::firstOrCreate(
             ['email' => 'admin@usap.edu'],
             [
-                'name' => 'Marco Alemán Watters',
+                'name' => 'Administrador USAP',
                 'password' => '123456',
                 'role' => 'admin',
             ]
