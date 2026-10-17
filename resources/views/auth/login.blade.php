@@ -13,7 +13,7 @@
     <main class="auth-wrapper">
         <div class="auth-card">
             <div class="auth-header">
-                <img src="{{ asset('img/logo-usap.svg') }}" alt="Universidad de San Pedro Sula - USAP" class="auth-logo">
+                <img src="{{ asset('img/logo-usap.png') }}" alt="Universidad de San Pedro Sula - USAP" class="auth-logo">
                 <h1 class="auth-title">Iniciar sesión</h1>
                 <p class="auth-subtitle">Ingresa tus credenciales para acceder al panel</p>
             </div>

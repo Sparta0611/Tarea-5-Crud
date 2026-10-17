@@ -15,7 +15,7 @@
         <aside class="sidebar">
             <div class="sidebar-brand">
                 <a href="{{ route('posts.index') }}">
-                    <img src="{{ asset('img/logo-usap.svg') }}" alt="Universidad de San Pedro Sula - USAP">
+                    <img src="{{ asset('img/logo-usap.png') }}" alt="Universidad de San Pedro Sula - USAP">
                 </a>
             </div>
 
