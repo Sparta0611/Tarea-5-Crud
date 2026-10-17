@@ -28,7 +28,7 @@
                            id="name"
                            class="form-control auth-input @error('name') is-invalid @enderror"
                            value="{{ old('name') }}"
-                           placeholder="Ej. Marco Alemán Watters"
+                           placeholder="Ej. Juan Pérez"
                            autocomplete="name"
                            required
                            autofocus>

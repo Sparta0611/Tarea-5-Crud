@@ -26,8 +26,8 @@ class PostTest extends TestCase
     public function test_user_can_register_as_admin_and_see_name_in_topbar(): void
     {
         $response = $this->post('/register', [
-            'name'     => 'Marco Alemán Watters',
-            'email'    => 'marco@usap.edu',
+            'name'     => 'Carlos Mendoza',
+            'email'    => 'carlos.mendoza@usap.edu',
             'password' => '123456',
             'role'     => 'admin',
         ]);
@@ -35,14 +35,14 @@ class PostTest extends TestCase
         $response->assertRedirect('/posts');
         $this->assertAuthenticated();
         $this->assertDatabaseHas('users', [
-            'name'  => 'Marco Alemán Watters',
-            'email' => 'marco@usap.edu',
+            'name'  => 'Carlos Mendoza',
+            'email' => 'carlos.mendoza@usap.edu',
             'role'  => 'admin',
         ]);
 
         $indexResponse = $this->get('/posts');
         $indexResponse->assertStatus(200);
-        $indexResponse->assertSee('Marco Alemán Watters');
+        $indexResponse->assertSee('Carlos Mendoza');
         $indexResponse->assertSee('Crear');
     }
 
